@@ -1,15 +1,12 @@
-﻿namespace CabInvoiceGenerator
+using System;
+
+namespace CensusAnalyserProgram
 {
-    public class Program
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            Console.WriteLine("***** Welcome To Cab Invoice Generator Program. *****");
-
-            InvoiceGenerator invoiceGenerator = new InvoiceGenerator(RideType.NORMAL);
-
-            double fare = invoiceGenerator.CalculateFare(2.0, 5);
-            Console.WriteLine(fare);
+            Console.WriteLine("\n Welcome to Indian States Census Analyser program \n");
         }
     }
 }
